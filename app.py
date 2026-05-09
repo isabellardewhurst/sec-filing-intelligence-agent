@@ -449,7 +449,7 @@ if analyze_button:
             st.info("No chartable financial metrics were available.")
 
         # Plain English commentary
-        st.subheader("Plain-English Analyst Commentary")
+        st.subheader("Analyst Commentary")
 
         comments = create_plain_english_summary(metrics_df, company_name)
 
